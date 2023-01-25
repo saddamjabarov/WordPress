@@ -1,0 +1,107 @@
+.promo {
+  padding: 38px 0 60px 0;
+  height: 802px;
+  background: url('./../img/main_bg.png') center (center/cover) no-repeat;
+  &__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  &__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__title {
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #f9bf3b;
+    text-align: center;
+    margin-top: 53px;
+    &-text {
+      font-weight: 900;
+      font-size: 41px;
+      line-height: 41px;
+      text-transform: uppercase;
+      color: #f9bf3b;
+      text-align: center;
+      margin-top: 21px;
+    }
+  }
+  &__descr {
+    position: relative;
+  }
+  &__subtitle {
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+    color: #ffffff;
+    &-descr {
+      font-weight: 300;
+      font-size: 21px;
+      line-height: 28px;
+      margin-top: 23px;
+      color: #ffffff;
+      span {
+        color: #f9bf3b;
+      }
+    }
+  }
+  &__btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+    margin-top: 71px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__footer {
+    &-descr {
+      font-weight: 100;
+      font-size: 15px;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 71px;
+    }
+  }
+  &__down {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  &__left {
+    position: absolute;
+    width: 292px;
+    height: 2px;
+    left: -1px;
+    top: 37px;
+    background: #ffffff;
+  }
+  &__right {
+    position: absolute;
+    width: 292px;
+    height: 2px;
+    right: -12px;
+    top: 37px;
+
+    background: #ffffff;
+  }
+}

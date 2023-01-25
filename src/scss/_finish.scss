@@ -1,0 +1,39 @@
+.finish {
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 36px;
+  }
+  &__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299cbd;
+  }
+  &__descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 25px;
+    color: #4a4a4a;
+    margin-bottom: 52px;
+  }
+}

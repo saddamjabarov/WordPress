@@ -1,0 +1,35 @@
+.optimization {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+
+  &__header {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 30px;
+    margin-left: 389px;
+    text-transform: uppercase;
+
+    color: #299cbd;
+  }
+  &__text {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    margin-left: 389px;
+    line-height: 27px;
+    z-index: 5;
+    color: #4a4a4a;
+    span {
+      color: #4a4a4a;
+      font-weight: 700;
+    }
+  }
+  &__img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+  }
+}

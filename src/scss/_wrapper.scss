@@ -1,0 +1,53 @@
+.wrapper {
+  min-height: 447px;
+  padding: 86px 0px 69px 0px;
+  background: url('./../icons/second_bg.png') center (center/cover) no-repeat;
+  position: relative;
+  &__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #efefef;
+  }
+  .line {
+    position: absolute;
+    width: 220px;
+    height: 2px;
+    left: 468px;
+    top: 132px;
+
+    background: #f9bf3b;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    &-item {
+      margin-top: 40px;
+      width: 118px;
+      height: 118px;
+      background: #b4e2ff;
+      border-radius: 100%;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-top: 32px;
+      width: 60px;
+      height: 54px;
+    }
+  }
+  &__descr {
+    font-family: 'Roboto';
+    margin-top: 37px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #efefef;
+  }
+}

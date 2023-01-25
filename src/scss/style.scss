@@ -1,0 +1,18 @@
+@import 'promo';
+@import 'waiting';
+@import 'optimization';
+@import 'wrapper';
+@import 'content';
+@import 'finish';
+@import 'footer';
+.container {
+  width: 1140px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 88px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
